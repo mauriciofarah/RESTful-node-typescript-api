@@ -1,0 +1,25 @@
+{
+  "name": "api_ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "tsc -w",
+    "start": "node ./dist/program.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/body-parser": "^1.19.2",
+    "@types/express": "^4.17.13",
+    "@types/http-status": "^1.1.2",
+    "@types/node": "^17.0.35",
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "http-status": "^1.5.2",
+    "ts-node": "^10.8.0",
+    "typescript": "^4.6.4"
+  }
+}
